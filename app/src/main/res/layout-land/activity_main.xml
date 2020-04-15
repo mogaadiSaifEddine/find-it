@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context=".MainActivity">
+
+
+       <TextView
+           android:id="@+id/textView"
+
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:baselineAligned="false"
+           android:fontFamily="@font/indie_flower"
+           android:gravity="center_horizontal"
+           android:text="@string/app_name"
+           android:textColor="#c3c3c3"
+           android:textSize="80sp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.497"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="358sp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#c3c3c3"
+        android:fontFamily="@font/indie_flower"
+        android:text="@string/button_register"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="358dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#c3c3c3"
+        android:fontFamily="@font/indie_flower"
+        android:text="@string/button_log_in"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

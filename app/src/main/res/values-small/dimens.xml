@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view_size">80sp</dimen>
+    <dimen name="widthbut">358sp</dimen>
+    <dimen name="heghitbut">0dp</dimen>
+    <dimen name="marginTopbut1">20dp</dimen>
+    <dimen name="textsizebut">10sp</dimen>
+    <dimen name="margintopbut2">36dp</dimen>
+    <dimen name="margintop_edit_text_login">200dp</dimen>
+    <dimen name="margintop_edit_text_password">30dp</dimen>
+
+
+</resources>
